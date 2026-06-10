@@ -1,75 +1,87 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Wpalish+%F0%9F%91%8B;Full-Stack+%2B+AI+Engineer;Building+products+that+scale" alt="Typing SVG" /></a>
+```
+ ██╗    ██╗██████╗  █████╗ ██╗     ██╗███████╗██╗  ██╗
+ ██║    ██║██╔══██╗██╔══██╗██║     ██║██╔════╝██║  ██║
+ ██║ █╗ ██║██████╔╝███████║██║     ██║███████╗███████║
+ ██║███╗██║██╔═══╝ ██╔══██║██║     ██║╚════██║██╔══██║
+ ╚███╔███╔╝██║     ██║  ██║███████╗██║███████║██║  ██║
+  ╚══╝╚══╝ ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝╚══════╝╚═╝  ╚═╝
+```
 
-[![Profile Views](https://komarev.com/ghpvc/?username=wpalish&color=3b82f6&style=flat-square&label=Profile+Views)](https://github.com/wpalish)
+**Building AI infrastructure from Kazakhstan, one commit at a time.**
 
-</div>
-
----
-
-### 🛠 Tech Stack
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Claude AI](https://img.shields.io/badge/Claude_AI-D97706?style=flat-square&logo=anthropic&logoColor=white)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=wpalish.wpalish)
+[![GitHub followers](https://img.shields.io/github/followers/wpalish?style=flat&color=0969da)](https://github.com/wpalish)
 
 </div>
 
 ---
 
-### 🏆 GitHub Trophies
+I've been shipping production TypeScript and AI infrastructure since before "AI-native" became a buzzword. What started as internal tools for Kazakh startups evolved into open-source systems that developers actually use — agent frameworks, animation primitives, IoT platforms, streaming hooks.
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wpalish&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</div>
+I don't build demos. I build the infrastructure layer underneath the demos.
+
+## Philosophy
+
+Three rules for everything I ship:
+
+1. **No magic** — internals should be readable, forkable, understandable
+2. **Real problems first** — if I can't deploy it or use it myself, it doesn't ship  
+3. **Open by default** — I'd rather 1,000 people fork it than 1 person pay for a closed version
+
+I've been building this publicly since 2022. The timestamps matter.
+
+## What I'm building
+
+| Repo | What it actually is | Status |
+|------|--------------------|----|
+| [agent-kit](https://github.com/wpalish/agent-kit) | Multi-agent orchestration — tools, memory, parallelism, Claude at the core | 🔨 Active |
+| [ai-saas-starter](https://github.com/wpalish/ai-saas-starter) | Claude streaming + auth + billing in one repo, Edge runtime | ✅ Stable |
+| [react-ai-hooks](https://github.com/wpalish/react-ai-hooks) | `useChat`, `useStream`, `useCompletion` — streaming primitives for React | ✅ Stable |
+| [motion-primitives](https://github.com/wpalish/motion-primitives) | Framer Motion components: magnetic, scroll-parallax, text reveal | ✅ Stable |
+| [terra-platform](https://github.com/wpalish/terra-platform) | Agricultural IoT — SSE sensor feeds, real-time threshold alerts | 🔨 Active |
+| [nextjs-dashboard](https://github.com/wpalish/nextjs-dashboard) | tRPC v11 + next-auth v5 + Prisma — production admin template | ✅ Stable |
+| [telegram-ai-bot](https://github.com/wpalish/telegram-ai-bot) | Telegram × Claude with Redis conversation memory + streaming | ✅ Stable |
+| [kz-addresses](https://github.com/wpalish/kz-addresses) | Kazakhstan address data — trilingual KAZ/RUS/ENG, all 20 regions | ✅ Stable |
+| [madasy-studio](https://github.com/wpalish/madasy-studio) | Agency portfolio — Next.js 14, animated, Almaty-based studio | ✅ Stable |
+
+## Stack I actually use
+
+```
+Language   TypeScript · Rust · Python
+Runtime    Node.js · Edge (Cloudflare Workers / Vercel)
+AI         Claude API · multi-agent patterns · streaming · tool use
+Frontend   Next.js 14 · React 18 · Tailwind · Framer Motion
+Backend    tRPC v11 · Prisma · PostgreSQL · Redis
+Infra      Docker · GitHub Actions · Railway · Vercel
+```
+
+## Current focus
+
+Building **[agent-kit](https://github.com/wpalish/agent-kit)** — a TypeScript framework for multi-agent systems with Claude at the core.
+
+Tool registry, parallel agent runners, shared memory store, orchestrator/worker topology. The goal: make multi-agent systems boring to build. Most agent frameworks either do too much or not enough. This one is the Lego bricks — you assemble the architecture.
+
+## Why Kazakhstan
+
+I'm from Almaty 🇰🇿. Most of what I've built solves problems I saw in Central Asian tech ecosystems — address data nobody had cleaned up, IoT platforms nobody had open-sourced, AI tooling never localized for non-English devs. There's serious infrastructure missing in this part of the world and I plan to fill it, piece by piece.
+
+The intersection of AI + local context is where interesting problems live.
 
 ---
 
-### 📦 Projects
-
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [ai-saas-starter](https://github.com/wpalish/ai-saas-starter) | Production-ready AI SaaS boilerplate | Next.js 14, Claude API, Stripe, Clerk |
-| [terra-platform](https://github.com/wpalish/terra-platform) | Agricultural IoT platform | Next.js, Prisma, WebSocket, Leaflet |
-| [telegram-ai-bot](https://github.com/wpalish/telegram-ai-bot) | Telegram bot powered by Claude AI | Telegraf, TypeScript, Redis |
-| [react-ai-hooks](https://github.com/wpalish/react-ai-hooks) | React hooks for AI streaming | TypeScript, SSE, Streaming |
-| [nextjs-dashboard](https://github.com/wpalish/nextjs-dashboard) | Admin dashboard template | Next.js, tRPC, Prisma, shadcn/ui |
-| [motion-primitives](https://github.com/wpalish/motion-primitives) | Framer Motion animation components | TypeScript, Framer Motion |
-| [kz-addresses](https://github.com/wpalish/kz-addresses) | Kazakhstan address data (KAZ/RUS/ENG) | TypeScript, Open Data, GIS |
-| [turnstile](https://github.com/wpalish/turnstile) | Employee attendance tracker | Express, Prisma, Telegram |
-| [madasy-studio](https://github.com/wpalish/madasy-studio) | Web dev agency portfolio | Next.js, Tailwind |
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wpalish&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wpalish&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=wpalish&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wpalish&theme=tokyo-night&hide_border=true&area=true" />
-</div>
-
----
-
 <div align="center">
 
-**Open to freelance & full-time opportunities** · [Telegram](https://t.me/wpalish)
+![Stats](https://github-readme-stats.vercel.app/api?username=wpalish&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wpalish&layout=compact&theme=tokyonight&hide_border=true)
+
+![Streak](https://streak-stats.demolab.com?user=wpalish&theme=tokyonight&hide_border=true)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wpalish&theme=tokyo-night&hide_border=true)](https://github.com/wpalish)
+
+**Building in public from Almaty, Kazakhstan**
+
+[Twitter](https://twitter.com/wpalish) · [LinkedIn](https://linkedin.com/in/wpalish)
 
 </div>
