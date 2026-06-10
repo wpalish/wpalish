@@ -1,154 +1,91 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Senior+Frontend+Developer+%F0%9F%9A%80;React+%2F+Next.js+%2F+TypeScript;Building+products+people+love;Open+to+new+opportunities" alt="Typing SVG" />
-
-<h1>Алишер Нурсаин</h1>
-<h3>Frontend Developer · Astana, Kazakhstan 🇰🇿</h3>
-
-<p>
-  <a href="https://resume-deploy-orpin.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="mailto:alisher.nursain@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://t.me/wpalish"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=wpalish&color=58a6ff&style=flat-square&label=Profile+Views" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Next.js+%2F+TypeScript+%2F+Node.js;Building+digital+products+in+Kazakhstan+%F0%9F%87%B0%F0%9F%87%BF" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 🚀 About Me
+## About Me
 
-> Building scalable web products with modern stack. Passionate about clean architecture, great UX, and leveraging AI to solve real-world problems.
+- Full-stack developer based in **Almaty, Kazakhstan** 🇰🇿
+- Founder of **Madasy Studio** — web dev agency building SaaS products
+- Specializing in **Next.js**, **TypeScript**, **Node.js**, and **AI integrations**
+- Open to collaborations on **SaaS**, **AI**, and **fintech** projects
 
-- 🏗️ Founder of **Madasy Studio** — full-cycle web development agency in Astana
-- 🌾 Author of **Terra Platform** — real-time agro-analytics for Central Asian farms
-- ⏱️ Built **Turnstile** — enterprise workforce management system (500+ users)
-- 🤖 Actively integrating AI (Claude, GPT-4o) into production web apps
-- 💬 Always open to interesting projects and collaboration
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wpalish&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" />
-</p>
-
----
-
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Zustand](https://img.shields.io/badge/-Zustand-443E38?style=flat-square)
-![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 
-**Backend & Database**
+**Backend**
 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
-**Tools & DevOps**
+**DevOps & Tools**
 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
----
+## GitHub Trophies
 
-## 📌 Featured Projects
+<div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[![trophy](https://github-profile-trophy.vercel.app/?username=wpalish&theme=algolia&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
-### 🌾 Terra Platform
-Real-time agricultural analytics for Central Asian farms. Soil sensors, weather data, yield predictions, live maps.
+</div>
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+## Projects
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/wpalish/terra-platform)
+| Repository | Description | Stack |
+|-----------|-------------|-------|
+| [ai-saas-starter](https://github.com/wpalish/ai-saas-starter) | AI-powered SaaS boilerplate | Next.js · Claude · Stripe · Clerk |
+| [terra-platform](https://github.com/wpalish/terra-platform) | Agricultural IoT management | Next.js · Prisma · WebSocket · Leaflet |
+| [turnstile](https://github.com/wpalish/turnstile) | Employee attendance tracker | Express · Prisma · Telegram API |
+| [react-ai-hooks](https://github.com/wpalish/react-ai-hooks) | React hooks for AI/LLM | TypeScript · SSE · useChat · useStream |
+| [nextjs-dashboard](https://github.com/wpalish/nextjs-dashboard) | Admin dashboard template | Next.js · next-auth · tRPC · shadcn |
+| [telegram-ai-bot](https://github.com/wpalish/telegram-ai-bot) | Telegram bot with Claude AI | Node.js · Telegraf · Redis |
+| [madasy-studio](https://github.com/wpalish/madasy-studio) | Web dev agency portfolio | Next.js · TypeScript · Tailwind |
 
-</td>
-<td width="50%" valign="top">
+## GitHub Stats
 
-### ⏱ Turnstile
-Enterprise workforce management. Attendance via QR/PIN/Face, shift scheduling, payroll export for 500+ employees.
+<div align="center">
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=wpalish&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wpalish&layout=compact&theme=algolia&langs_count=8" />
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/wpalish/turnstile)
+</div>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🤖 AI SaaS Starter
-Production-ready Next.js + AI boilerplate. Clerk auth, Stripe billing, Claude API, Prisma DB — ship in hours.
+[![GitHub Streak](https://streak-stats.demolab.com?user=wpalish&theme=algolia&hide_border=true)](https://git.io/streak-stats)
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude_API-D97706?style=flat-square)
+</div>
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/wpalish/ai-saas-starter)
-[![Demo](https://img.shields.io/badge/Live_Demo-000?style=flat-square&logo=vercel)](https://resume-deploy-orpin.vercel.app)
+## Activity
 
-</td>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🏢 Madasy Studio
-Web development agency landing page. Smooth animations, CMS-driven content, multilingual support.
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=wpalish&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Framer](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/wpalish)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## 📊 GitHub Stats
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wpalish&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wpalish&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="170" />
-</p>
+📧 **wpalish@madasy.studio** &nbsp;|&nbsp; 💬 **[@wpalish](https://t.me/wpalish)** &nbsp;|&nbsp; 🇰🇿 **Almaty, Kazakhstan**
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wpalish&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=wpalish&color=blue&style=flat-square)
 
----
-
-## 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wpalish&theme=github-compact&hide_border=true&area=true" />
-</p>
-
----
-
-<p align="center">
-  <b>Let's build something great together 🤝</b><br/>
-  <a href="mailto:alisher.nursain@gmail.com">alisher.nursain@gmail.com</a> · <a href="https://t.me/wpalish">@wpalish</a>
-</p>
+</div>
