@@ -28,6 +28,8 @@ Working on problems that matter to Central Asian developers: address data nobody
 
 | | Repo | What it solves | Stack |
 |-|------|----------------|-------|
+| 🧠 | [**rag-service**](https://github.com/wpalish/rag-service) | RAG API — chunking, embeddings, vector search, source-cited answers + hallucination guardrail | Python · FastAPI · Docker |
+| 🧩 | [**agent-flow**](https://github.com/wpalish/agent-flow) | Async multi-agent orchestration — planner → parallel workers → synthesizer | Python · FastAPI · AsyncIO |
 | ⭐ | [**agent-kit**](https://github.com/wpalish/agent-kit) | Multi-agent orchestration — pipeline, parallel, supervisor, swarm flows | TS · Claude · Anthropic SDK |
 | 🤖 | [**ai-saas-starter**](https://github.com/wpalish/ai-saas-starter) | Claude streaming + auth + billing, Edge runtime, deploy in minutes | Next.js · tRPC · Prisma |
 | ⚡ | [**react-ai-hooks**](https://github.com/wpalish/react-ai-hooks) | `useChat` `useStream` `useCompletion` — streaming primitives for React | React · TypeScript |
