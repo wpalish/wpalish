@@ -1,84 +1,58 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Alisher Nursain — Python, web and AI automation. Astana, Kazakhstan." src="assets/header-light.svg" width="100%">
+  <img alt="Alisher Nursain — Technical Lead and Software Developer. Architecture, APIs and business workflows. Astana, Kazakhstan." src="assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="case-studies/README.md">Engineering notes</a> &nbsp; / &nbsp;
-  <a href="https://wpalish.github.io/ai-studio/">Concept portfolio</a> &nbsp; / &nbsp;
+  <a href="case-studies/business-workflows.md">Workflow engineering</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/alisher-nursain-80873a326/">LinkedIn</a> &nbsp; / &nbsp;
   <a href="mailto:alisher.nursain@gmail.com">Contact</a>
 </p>
 
-I build Python and TypeScript/React projects, with a focus on **APIs, automation and AI-assisted applications**. My portfolio brings together source code, architectural decisions and reproducible checks.
+## Technical Lead & Software Developer
 
-Based in **Astana, Kazakhstan**. Computing undergraduate at **Coventry University Kazakhstan** (2025–2029 expected), with **3+ years of self-directed programming**. I am looking for my first professional Junior role and well-scoped paid projects.
+I take technical responsibility for **architecture, task planning, delivery coordination and releases**. My project experience includes initiatives with 20–30 participants and, in one case, around 50. I also build projects independently.
+
+I build **APIs and business workflows** where the rules behind an action matter: who may approve a change, which version was reviewed, what survives a restart, and how conflicting actions are handled. My work combines implementation, architectural explanations and reproducible checks.
+
+Based in **Astana, Kazakhstan**. Three years of programming experience. Computing at **Coventry University Kazakhstan** (2025–2029 expected, in progress).
+
+**Open to paid, fully remote projects.** Total availability: 20–30 hours/week. For a complete web MVP, API or internal tool, we can agree the user journeys, integrations, acceptance criteria and delivery stages before implementation.
 
 ## Selected work
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>01 / ASHYQ Apply</h3>
-<p><b>Evidence-led admissions software</b></p>
-<p>Python backend and React interface for university and scholarship discovery. Explicit requirement states and a durable job queue make uncertainty and background work visible.</p>
-<p><code>Python</code> <code>TypeScript</code> <code>React</code> <code>SQLAlchemy</code></p>
-<p><a href="https://github.com/wpalish/ashyq-apply">Source ↗</a> · <a href="case-studies/ashyq-apply.md">Architecture &amp; scope</a></p>
-<p><sub>Collaborative project · AI-assisted development</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>02 / Context Platform</h3>
-<p><b>Testable calculation modules</b></p>
-<p>Building-envelope, climate and life-cycle cost calculations. Tests cover invalid inputs, replacement horizons and sustained break-even behaviour.</p>
-<p><code>Python</code> <code>Data modelling</code> <code>pytest</code></p>
-<p><a href="https://github.com/wpalish/context-platform">Source ↗</a> · <a href="case-studies/context-platform.md">Model &amp; verification</a></p>
-<p><sub>67 calculation-module tests passed locally · 21 Oct 2026</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>03 / Alēm Expert Router</h3>
-<p><b>Explainable resource assignment</b></p>
-<p>Skill filters and capacity constraints feed a global assignment solver. Results retain reasons for matches and unassigned requests.</p>
-<p><code>Python</code> <code>Algorithms</code> <code>Pydantic</code> <code>pytest</code></p>
-<p><a href="https://github.com/wpalish/alem-expert-router">Source ↗</a> · <a href="case-studies/alem-expert-router.md">Trade-offs &amp; tests</a></p>
-<p><sub>19 matching / solver tests passed locally · 21 Oct 2026</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3>04 / Petrel RAG</h3>
-<p><b>A retrieval systems exploration</b></p>
-<p>Code for dense/sparse retrieval and reranking, with local RU/KZ language-routing checks. A useful starting point for a bounded retrieval evaluation.</p>
-<p><code>Python</code> <code>RAG</code> <code>Qdrant</code> <code>Docker</code></p>
-<p><a href="https://github.com/wpalish/petrel-rag-v5">Source ↗</a> · <a href="case-studies/petrel-rag.md">Pipeline &amp; validation limits</a></p>
-<p><sub>8 language tests passed locally · retrieval quality not benchmarked</sub></p>
-</td>
-</tr>
-</table>
+| Project | Engineering problem | Implementation and evidence |
+| :--- | :--- | :--- |
+| **[BekitChange](https://github.com/wpalish/bekit-change)** | Two approved requests must not overwrite a newer record. | Two assigned reviews, exact base-version check, author-only application and an atomic SQLite write with audit. [Domain rules](https://github.com/wpalish/bekit-change/blob/24b631888ddf3a4541cd9971da7c55fd0d8eee01/module.js#L10) · [24 local workflow tests](https://github.com/wpalish/bekit-change/blob/24b631888ddf3a4541cd9971da7c55fd0d8eee01/tests/workflow.test.js). |
+| **[KadamRun](https://github.com/wpalish/kadam-run)** | A retry should preserve an already successful intermediate result. | Recipe snapshots, saved events and explicit owner-driven retries. [State transitions](https://github.com/wpalish/kadam-run/blob/0e6af4d1dbc296f6ddb9a4f6ed1a1adca9476a44/module.js#L13) · [24 local workflow tests](https://github.com/wpalish/kadam-run/blob/0e6af4d1dbc296f6ddb9a4f6ed1a1adca9476a44/tests/workflow.test.js). |
+| **[KoshiMap](https://github.com/wpalish/koshi-map)** | An import preview can become stale before the write. | Exact duplicate/conflict rules, server-side plan recalculation and whole-batch atomic application. [Import planning](https://github.com/wpalish/koshi-map/blob/fd22ccc94556ee526b6f8eebde518c09b972e377/module.js#L66) · [24 local workflow tests](https://github.com/wpalish/koshi-map/blob/fd22ccc94556ee526b6f8eebde518c09b972e377/tests/workflow.test.js). |
+| **[ASHYQ Apply](https://github.com/wpalish/ashyq-apply)** | Admissions workflows need explicit evidence states and background-job ownership. | Collaborative Python/React work with requirement states, job leases, retries and cancellation. [Architecture and scope](case-studies/ashyq-apply.md). |
 
-<sub>Test counts describe selected modules, not full-system coverage. Each engineering note links the reviewed commit, test scope and remaining validation. These are portfolio projects; no paid-client results are implied.</sub>
+On **26 October 2026**, 96 local workflow tests passed across BekitChange, KadamRun, KoshiMap and [QaitaCycle](https://github.com/wpalish/qaita-cycle), 24 per project, on Node 24.15.0. These runs used synthetic data, SQLite and local HTTP. They establish the checked local behavior; external integrations and production operation need separate validation. The operational projects reuse a shared cabinet/authentication core.
 
-## What I can contribute
+### More engineering notes
 
-| Area | A concrete starting scope |
-| :--- | :--- |
-| **Python & APIs** | A small integration or data-processing module, input validation and tests |
-| **Web development** | A bounded React/TypeScript interface or a reproducible bug fix |
-| **Automation & data** | A repeatable file-to-report workflow with documented checks |
-| **AI applications** | A retrieval prototype with a defined evaluation set and explicit limitations |
-
-I use AI-assisted tools for development and review. For client work, the permitted tools, data handling and acceptance criteria need to be agreed before implementation.
+- [Context Platform](case-studies/context-platform.md): calculation modules, invalid inputs and horizon boundaries.
+- [Alēm Expert Router](case-studies/alem-expert-router.md): skill/capacity constraints and explainable assignment.
+- [Petrel RAG](case-studies/petrel-rag.md): retrieval pipeline exploration and validation limits.
+- [Yummy](https://github.com/wpalish/yummy) and [BudgetGate](https://github.com/wpalish/budgetgate): order/stock transitions and expense-approval rules.
 
 ## Engineering approach
 
-**Understand the requirement → isolate the logic → test edge cases → document the result.**
+**Define the result → model the rules → compare options → implement → verify → document the handover.**
 
-The [engineering notes](case-studies/README.md) show the decisions worth discussing in an interview: why unknown evidence needs its own state, where a greedy assignment fails, and how to distinguish a passing unit test from an evaluated system.
+I make the important boundaries visible: rejected actions, stale data, ownership, restart behavior and the scope of tests. [Workflow engineering notes](case-studies/business-workflows.md) explain three current examples.
 
-**Current toolkit:** Python · TypeScript · React · Git · pytest. Project-specific technologies and their validation scope are listed alongside the source.
+**Toolkit:** Python/FastAPI · React/TypeScript · Node.js · SQLite · SQLAlchemy · Git · pytest. Technologies vary by project; follow the source and case notes for the reviewed scope.
 
----
+I use AI tools in development and review. Tool permissions, private-data handling and acceptance criteria are agreed for each client brief. Project leadership is described at portfolio level; participant counts do not describe the contributors to every repository or a verified number of direct reports.
 
-**Let's discuss a concrete task.** [Email](mailto:alisher.nursain@gmail.com) · [Concept Work / Synthetic Data portfolio](https://wpalish.github.io/ai-studio/) · [Astana Hub profile](https://astanahub.com/account/v2/user/832790/profile/about/)
+## Writing and contact
 
-<sub>Concept demonstrations are labelled separately from repository work. My public projects include collaborative and AI-assisted development; repository complexity is not a claim of commercial seniority.</sub>
+I publish short engineering explanations about architecture, reliable state transitions and business workflows.
+
+[LinkedIn](https://www.linkedin.com/in/alisher-nursain-80873a326/) · [X / @wpalish](https://x.com/wpalish) · [Astana Hub](https://astanahub.com/account/v2/user/832790/profile/about/) · [Engineering notes](case-studies/README.md) · [Email](mailto:alisher.nursain@gmail.com)
+
+[Concept Work / Synthetic Data portfolio](https://wpalish.github.io/ai-studio/) is labelled separately from repository work. Public projects include collaborative and AI-assisted development; the case notes distinguish local checks from client delivery and production outcomes.
